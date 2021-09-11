@@ -1,0 +1,12 @@
+{
+  "name": "ec-cube/AgeLimit",
+  "version": "1.0.0",
+  "description": "年齢制限プラグイン",
+  "type": "eccube-plugin",
+  "require": {
+    "ec-cube/plugin-installer": "~0.0.7"
+  },
+  "extra": {
+    "code": "AgeLimit"
+  }
+}
