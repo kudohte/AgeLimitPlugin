@@ -1,0 +1,33 @@
+{#
+ This file is part of the Coupon plugin
+
+ Copyright(c) EC-CUBE CO.,LTD. All Rights Reserved.
+ http://www.ec-cube.co.jp/
+
+ For the full copyright and license information, please view the LICENSE
+ file that was distributed with this source code.
+#}
+{%- extends '@admin/Form/bootstrap_4_horizontal_layout.html.twig' -%}
+
+{%- block _admin_product_age_limit_row -%}
+
+<div class="row">
+    <div class="col-3">
+        <div class="d-inline-block" data-tooltip="true" data-placement="top"
+            title="{{ 'tooltip.product.age_limit'|trans }}">
+            <span>{{ 'admin.product.age_limit'|trans }}</span>
+            <i class="fa fa-question-circle fa-lg ml-1"></i>
+            <span class="badge badge-primary ml-1">
+                {{ 'admin.common.required'|trans }}
+            </span>
+        </div>
+    </div>
+    <div class="col-2 mb-2">
+        <div>
+            {{- form_widget(form) -}}
+            {{- form_errors(form) -}}
+        </div>
+    </div>
+</div>
+
+{%- endblock _admin_product_age_limit_row -%}

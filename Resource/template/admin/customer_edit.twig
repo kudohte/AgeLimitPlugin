@@ -1,0 +1,7 @@
+<script>
+    $(function () {
+        $(document).find('input[id="admin_customer_birth"]').parent().parent().find('.col-3').append($('#label_birth'));
+    });
+</script>
+
+<span id="label_birth" class="badge badge-primary ml-1">{{ 'admin.common.required'|trans }}</span>
