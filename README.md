@@ -1,5 +1,5 @@
 # AgeLimitPlugin  for EC-CUBE4
-簡単な年齢制限機能を追加します。
+簡単な年齢制限機能を追加します。 [参考サイト](https://jum11.com/2020/09/05/ec-cube4-plugin-develop-agelimit/)
 
 ## ■ 商品登録画面
 商品個別に年齢制限の設定を登録できます。
